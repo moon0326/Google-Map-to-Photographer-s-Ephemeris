@@ -1,0 +1,15 @@
+{
+   "background": {
+      "scripts": [ "popup.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "switch"
+   },
+   "description": "Open Photographer's Ephemeris from Google Map",
+   "manifest_version": 2,
+   "name": "Google Map to Photographer's Ephemeris",
+   "permissions": [ "activeTab", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
